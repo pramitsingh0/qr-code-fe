@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*:not(dialog) {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+  min-height: 100svh;
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+
+p {
+  font-size: 0.94rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 19.5rem;
+  height: 30rem;
+  gap: 1rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#qrimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
