@@ -11,6 +11,8 @@
 body {
   background-color: hsl(212, 45%, 89%);
   margin: 0;
+  display: flex;
+  flex-direction: column;
   min-height: 100svh;
   font-family: 'Outfit', sans-serif;
 }
@@ -25,7 +27,7 @@ h1 {
 p {
   font-size: 0.94rem;
   font-weight: 400;
-  color: hsl(220, 15%, 55%);
+  color: hsl(216, 15%, 48%);
   text-align: center;
 }
 
@@ -33,7 +35,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100svh;
+  flex-grow: 1;
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -42,9 +45,9 @@ p {
   align-items: center;
   background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1rem 1rem 2rem;
   width: 19.5rem;
-  height: 30rem;
+  /* height: 30rem; */
   gap: 1rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
