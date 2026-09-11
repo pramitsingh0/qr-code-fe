@@ -10,7 +10,7 @@ A solution to the [Frontend Mentor QR code component challenge](https://www.fron
 
 ### Mobile
 
-![QR code component on mobile](./images/screenshots/mobile-qr-code.png)
+<img src="./images/screenshots/mobile-qr-code.png" alt="QR code component on mobile" width="300">
 
 ## Built with
 
